@@ -567,7 +567,7 @@ reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v "
 
 taskkill /f /im explorer.exe
 start explorer.exe
-winget install 7zip.7zip Adobe.Acrobat.Reader.64-bit AzaharEmu.Azahar Brave.Brave Easeware.DriverEasy ElectronicArts.EADesktop EpicGames.EpicGamesLauncher Fastfetch-cli.Fastfetch GOG.Galaxy Gyan.FFmpeg Microsoft.PowerShell Microsoft.WindowsTerminal Microsoft.WSL Mozilla.Firefox Notepad++.Notepad++ Nvidia.GeForceNow OBSProject.OBSStudio PlayStation.PSRemotePlay PPSSPPTeam.PPSSPP PuTTY.PuTTY qBittorrent.qBittorrent RevoUninstaller.RevoUninstaller Ubisoft.Connect Valve.Steam VideoLAN.VLC WireGuard.WireGuard
+winget install 7zip.7zip Adobe.Acrobat.Reader.64-bit AzaharEmu.Azahar Brave.Brave Canva.Affinity Easeware.DriverEasy ElectronicArts.EADesktop EpicGames.EpicGamesLauncher Fastfetch-cli.Fastfetch GOG.Galaxy Gyan.FFmpeg Microsoft.PowerShell Microsoft.WindowsTerminal Microsoft.WSL Mozilla.Firefox Notepad++.Notepad++ Nvidia.GeForceNow OBSProject.OBSStudio PlayStation.PSRemotePlay PPSSPPTeam.PPSSPP PuTTY.PuTTY qBittorrent.qBittorrent RevoUninstaller.RevoUninstaller Ubisoft.Connect Valve.Steam VideoLAN.VLC WireGuard.WireGuard
 winget upgrade --all --include-unknown
 py -m pip install v2dl ytdlp
 
